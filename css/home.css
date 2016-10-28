@@ -1,0 +1,216 @@
+.clearfix() {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+.navbar-nav img {
+  width: 250px;
+}
+
+.navbar {
+   background-color: rgba( 20, 20, 20, .6);
+   background: rgba( 20, 20, 20, .6);
+   border-color: rgba( 20, 20, 20, .6);
+}
+
+.navbar li a {
+  font-size: 25px;
+  color: #D1E751!important;
+  font-weight: bold;
+}
+
+.navbar .btn {
+  margin-bottom: 10px;
+}
+
+#timer {
+  position: absolute;
+  z-index: 50;
+  width: 100%;
+  pointer-events: none;
+}
+
+#header .col-md-12 {
+  text-align: center;
+  padding-top: 200px;
+  color: white;
+}
+
+#header .col-md-12 p {
+  font-size: 25px;
+}
+
+.timer_box {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 200px!important;
+  height: 200px!important;
+  display: inline-table;
+  padding: 25px;
+  margin: 5px;
+  background-color: rgba( 20, 20, 20, .2);
+}
+
+.carousel .item {
+  height: 750px;
+}
+
+.item img {
+  position: absolute;
+}
+
+#about, #events, #donate {
+  height: 500px;
+}
+
+#about h2, #events h2, #donate h2, #footer h2 {
+  text-align: center;
+}
+
+#about h2, #events h2, #donate h2 {
+  padding: 50px;
+}
+
+#about p, #events p, #donate p, #footer p {
+  font-size: 20px;
+}
+
+#events {
+  background-image: url("../imgs/events-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#events .row {
+  margin: 50px 375px;
+  background-color: rgba( 20, 20, 20, .6);
+}
+
+#events h2, #events p {
+  color: white;
+}
+
+#events p {
+  padding-bottom: 25px;
+}
+
+.newsletter {
+  overflow: hidden;
+  height: 40px;
+  width: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.newsletter input {
+    width: 100%;
+    border: 1px solid #4DBCE9;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px 0 10px 15px;
+    text-transform: uppercase;
+}
+
+.newsletter button {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    height: 36px;
+    border: none;
+    background-color: #D1E751;
+    color: white;
+    padding: 0;
+    margin: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    text-transform: uppercase;
+    width: 100px;
+    text-align: center;
+}
+
+#footer {
+  background-color: #D1E751;
+}
+
+#footer .col-md-6:first-of-type {
+  border-right: thick dotted black;
+}
+
+#footer {
+  text-align: center;
+}
+
+#footer ul {
+    display: table;
+    margin: 25px auto;
+    padding: 0;
+}
+
+#footer ul i {
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: calc(7.5px / 2);
+    text-align: center;
+    line-height: 35px;
+    color: black;
+    font-size: 20px;
+}
+
+#footer li {
+    display: inline-table;
+    margin: 0 10px;
+    transition: all .5s ease-in-out;
+    border-radius: calc(7.5px / 2);
+}
+
+#footer li:hover {
+    transform: scale(1.3);
+}
+
+#footer .fa-twitter:hover {
+    background-color: #5EA9DD;
+}
+
+#footer .fa-facebook:hover {
+    background-color: #3B579D;
+}
+
+#footer .fa-instagram:hover {
+    background-color: #814B3A;
+}
+
+#footer .fa-envelope:hover {
+    background-color: #d14836;
+}
+
+.modal-footer a {
+  color: white;
+}
+
+.modal-footer a:hover {
+    text-decoration: none;
+}
